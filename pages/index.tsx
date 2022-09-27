@@ -4,10 +4,10 @@ import Sidebar from "../components/Sidebar";
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div>
       <Sidebar />
       <Canvas />
-    </>
+    </div>
   );
 };
 
