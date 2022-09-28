@@ -22,7 +22,7 @@ const CreateState = ({ onDeleteClick }: stateProps) => {
           onClick={onDeleteClick}
           className="flex w-10 p-2 bg-red-50 justify-center border-2 border-red-300 shadow-sm rounded-md"
         >
-          <Image src={trash} className="" />
+          <Image src={trash} alt="delete" />
         </button>
         <button className="flex-1 bg-sky-50 border-2 border-sky-300 text-sky-400 font-bold shadow-sm rounded-md">
           Create

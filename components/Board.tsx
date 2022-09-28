@@ -1,9 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import CreateState from "./CreateStage";
 
 export default function Board() {
   const [takeInput, setTakeInput] = useState<Boolean>(false);
-  const inputRef = useRef<HTMLInputElement>(null);
 
   const onAddStageClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
