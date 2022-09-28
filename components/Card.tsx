@@ -11,8 +11,8 @@ export default function Card() {
       <p>Description</p>
       <Image src={avatar} alt="Reporter" width={50} height={50} />
       <p>Reporter</p>
-      <Image src={comment} />
-      <Image src={linkIcon} />
+      <Image src={comment} alt="comment" />
+      <Image src={linkIcon} alt="link" />
     </div>
   );
 }
