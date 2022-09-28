@@ -1,9 +1,3 @@
-import Card from "./Card";
-
 export default function Sidebar() {
-  return (
-    <div>
-      <Card />
-    </div>
-  );
+  return <div className="w-48 border-r-2">just a sidebar</div>;
 }

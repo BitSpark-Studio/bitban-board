@@ -4,9 +4,11 @@ import Sidebar from "../components/Sidebar";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="flex h-screen">
       <Sidebar />
-      <Canvas />
+      <div className="flex-1">
+        <Canvas />
+      </div>
     </div>
   );
 };

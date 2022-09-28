@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Canvas() {
   return (
-    <div>
+    <div className="flex flex-col">
       <Header />
       <Board />
     </div>
